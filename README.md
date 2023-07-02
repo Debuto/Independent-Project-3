@@ -57,7 +57,11 @@ Github
 
 Current logic returns as follows:
 
-["12Won't you be my neighbor?", '211', '10', "1Won't you be my neighbor?2"]
+VM594:5 Uncaught TypeError: /[1-3]/.text is not a function
+    at <anonymous>:5:17
+    at Array.forEach (<anonymous>)
+    at numberDetector (<anonymous>:4:11)
+    at <anonymous>:1:1
 
 Intended result is:
 
