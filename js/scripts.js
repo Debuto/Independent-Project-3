@@ -22,8 +22,8 @@ function numberDetector(input) {
 
     //Line here was to help fill out arguement if prrevious statements were false. Commenting this line gives closer desired output of goal. 
 
-    // } else if (/[987654]/.test(i.toString())) {
-    //   result += ', ' + i;
+    } else if (/[987654]/.test(i.toString())) {
+      result += ', ' + i;
     
   
   } else if (/[01]/.test(i.toString())) {
