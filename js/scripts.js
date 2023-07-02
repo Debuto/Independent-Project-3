@@ -1,8 +1,10 @@
-form.addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent the form from submitting and refreshing the page
-
-
-//Declaring function for detecting nnumbers 1, 2, and 3!
+document.getElementById('numberForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const numberInput = document.getElementById('number').value;
+  const outputDiv = document.getElementById('output');
+  const result = numberDetector(Number(numberInput));
+  outputDiv.innerText = result;
+});
 
 function numberDetector(input) {
   let result = '';

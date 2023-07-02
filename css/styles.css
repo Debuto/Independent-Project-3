@@ -14,3 +14,8 @@
   border: 2px solid green;
   color: white;
 }
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+}
