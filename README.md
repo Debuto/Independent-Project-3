@@ -57,17 +57,11 @@ Github
 
 Current logic returns as follows:
 
-VM594:5 Uncaught TypeError: /[1-3]/.text is not a function
-    at <anonymous>:5:17
-    at Array.forEach (<anonymous>)
-    at numberDetector (<anonymous>:4:11)
-    at <anonymous>:1:1
+Input: 20
+
+0, "Beep", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Beep!", "Beep!", 14, 15, 16, 17, 18, 19, "Beep!"
 
 Intended result is:
-
-To type a number and have it return the whole number as a string and not a single digit of it with the string mashed in... 
-
-Example Output from guidelines as follows:
 
 Input: 5
 Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5
