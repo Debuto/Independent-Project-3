@@ -20,3 +20,14 @@ function numberDetector(text) {
   })
   return numbers
 } 
+
+function weCountRealGood(num) {
+  let result = '';
+  for (let i = 1; i <= num; i++) {
+    result += i;
+    if (i < num) {
+      result =+ ', ';
+    }
+  }
+  return result;
+}
