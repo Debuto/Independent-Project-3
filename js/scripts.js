@@ -10,7 +10,7 @@ function numberDetector(text) {
   numbers.forEach(function(number, index) {
 
     //Array for looking for aany occurrrence of numbers 1-3.
-    if (/[1-3]/.text(number)) {
+    if (/[1-3]/.test(number)) {
       result += "Won't you be my neighbor?";
     } else if (/[1-2]/.text(number)) {
       result += "Boop!";
