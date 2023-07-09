@@ -1,9 +1,6 @@
-This is Mr. Roboger's Neighborhood 
+# Mr. Roboger's Neighborhood 
 
-(web application that takes a number from the user and returns a list of values from 0 to the user's inputted number with the following substitutions made within the returned list)
-
-# Author
-### **Deante Cacatian**
+### By: **Deante Cacatian**
 
 ## To Clone this repository:
 
@@ -16,12 +13,13 @@ This is Mr. Roboger's Neighborhood
 7. Press ENTER output should look similiar to below:
 
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```bash
 > Cloning into `Spoon-Knife`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
-
+```
 <br>
 
 ### Followed by Application setup instructions: <br>
@@ -34,6 +32,10 @@ Download a zip or clone repository in desired local directory. Open with VScode 
 <br>
 
 ## Description:
+This is Mr. Roboger's Neighborhood 
+
+(web application that takes a number from the user and returns a list of values from 0 to the user's inputted number with the following substitutions made within the returned list)
+
 *This is Deante's 3rd portfolio project with Epicodus!
 Epicodus and coding partners from weekly lessons for knnnowledge of HTML
 This HTML will display a simple webpage*
@@ -46,36 +48,39 @@ Link to site on GitHub Pages: https://github.com/Debuto/Independent-Project-3.gi
 
 # Technologies used: 
 
-VScode
-Javasript
-HTML
-CSS
-Git Bash
-Github
+* VScode
+* Javasript
+* HTML
+* CSS
+* Git Bash
+* Github
 
-<br><br>
+<br>
 
 Current logic returns as follows:
 
-Input: 20
+(Looking to replace numbers with 1)<br>
+Input: 1
 
-0, "Beep", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Beep!", "Beep!", 14, 15, 16, 17, 18, 19, "Beep!"
+0, "Beep"
 
-When section of code is commented out -->
+(Looking to replace numbers with 2)<br>
+Input: 2
 
-    //Line here was to help fill out arguement if prrevious statements were false. Commenting this line gives closer desired output of goal. 
+0, "Beep", "Boop!"
 
-    // } else if (/[987654]/.test(i.toString())) {
-    //   result += ', ' + i;
+(Looking to replace numbers with 3)<br>
+Input: 3
 
-Input: 200
+0, "Beep", "Boop!", "Won't you be my neighbor?"
 
-0, "Beep", "Boop!", "Won't you be my neighbor?", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!"
+(Looking to replace numbers prior but into double digits etc...)<br>
+Input: 14
 
-Intended result is:
+0, "Beep", "Boop!", "Won't you be my neighbor?", "Beep", "Beep", "Boop!", "Won't you be my neighbor?", "Beep"
 
-Input: 5
-Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5
+
+---
 
 #### Copyright (c) <2023> <Deante Cacatian>
 
