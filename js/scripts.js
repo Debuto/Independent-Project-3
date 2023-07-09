@@ -5,7 +5,7 @@ window.addEventListener('load', function() {
     const outputDiv = document.getElementById('output');
     const result = numberDetector(Number(numberInput));
     outputDiv.innerText = result;
-  });p
+  });
 
   function numberDetector(input) {
     let result = '';
@@ -18,6 +18,8 @@ window.addEventListener('load', function() {
         result += ', "Boop!"';
       } else if (String(i).includes('1')) {
         result += ', "Beep"';
+      } else if (/[456789]/.test(i.toString())) {
+        result += ', ' + i;
       }
     }
     return result;
