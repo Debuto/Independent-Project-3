@@ -6,8 +6,6 @@ document.getElementById('numberForm').addEventListener('submit', function(event)
   outputDiv.innerText = result;
 });p
 
-//Declared funnction for detecting numbers 1-3.0
-
 function numberDetector(input) {
   let result = '';
   for (let i = 0; i <= input; i++) {
